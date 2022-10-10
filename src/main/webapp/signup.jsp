@@ -7,19 +7,21 @@
 <body>
 <div id='container'>
   <div class='signup'>
-  <form action="" method="post">
-  <input type="text" name="name" placeholder="Enter name" required> </input>
-  <input type="email" name="email" placeholder="Enter email address" required> </input>
-  <input type="number" name="mobilenumber" placeholder="Enter mobile number" required> </input>
+  <form action="signupAction.jsp" method="post">
+  <input type="text" name="name" placeholder="Enter name" required> 
+  <input type="email" name="email" placeholder="Enter email address" required>
+  <input type="number" name="mobilenumber" placeholder="Enter mobile number" required>
    
    <select name="security questions" required> 
    <option value="What was your first car?"> </option>
    <option value="What was your first car?"> </option>
    <option value="What was your first car?"> </option>
    <option value="What was your first car?"> </option>
-   </select>
-   <input type="text" name="Answer" placeholder="Answer" required> </input>
-   <input type="password" name="Password" placeholder="Enter Password" required> </input>
+   </select>   <input type="text" name="Answer" placeholder="Answer" required> 
+
+   <input type="password" name="Password" placeholder="Enter Password" required> 
+   <input type="submit" value="signup">
+   
    </form>
     
       <h2><a href="">Login</a></h2>

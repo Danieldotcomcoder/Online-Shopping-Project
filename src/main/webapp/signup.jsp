@@ -12,11 +12,11 @@
   <input type="email" name="email" placeholder="Enter email address" required>
   <input type="number" name="mobilenumber" placeholder="Enter mobile number" required>
    
-   <select name="securityquestions" required> 
-   <option value="What was your first car?"> </option>
-   <option value="What was your first car?"> </option>
-   <option value="What was your first car?"> </option>
-   <option value="What was your first car?"> </option>
+   <select name="securityQuestions" required> 
+   <option value="What was your first car?">What was your first car? </option>
+  <option value="What was your first car?">What was your first car? </option>
+  <option value="What was your first car?">What was your first car? </option>
+  <option value="What was your first car?">What was your first car? </option>
    </select>   <input type="text" name="answer" placeholder="Answer" required> 
 
    <input type="password" name="password" placeholder="Enter Password" required> 

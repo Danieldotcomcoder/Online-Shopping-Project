@@ -4,7 +4,7 @@
 String name = request.getParameter("name");
 String email = request.getParameter("email");
 String mobileNumber = request.getParameter("mobileNumber");
-String securityQuestions = request.getParameter("securityquestions");
+String securityQuestions = request.getParameter("securityQuestions");
 String answer = request.getParameter("answer");
 String password = request.getParameter("password");
 String address="";
